@@ -1,11 +1,11 @@
 import Footer from "../Components/Footer";
-import Header from "../Components/Header";
-import LoginBody from "../Components/LoginBody";
+import LoginBody from "../Components/LoginBody/LoginBody";
+import LoginHeader from "../Components/LoginHeader/LoginHeader";
 
 function LoginPage() {
   return (
     <>
-      <Header/>
+      <LoginHeader/>
       <LoginBody/>
       <Footer/>
     </>

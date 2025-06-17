@@ -1,0 +1,18 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#headerLogin {
+  width: 100vw;
+  height: 15vh;
+  display: flex;
+  align-items: center;
+  padding-left: 4vw;
+}
+
+#headerLogin img {
+  width: 15vw;
+  
+}
