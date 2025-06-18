@@ -1,12 +1,12 @@
 import Footer from "../Components/Footer";
-import Header from "../Components/Header";
+import Header from "../Components/HeaderHome/Header";
 
 function DetalhesProdutosPage() {
   return (
     <>
-      <Header/>
+      <Header />
       <h1>Produtos</h1>
-      <Footer/>
+      <Footer />
     </>
   );
 }

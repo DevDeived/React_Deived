@@ -1,6 +1,6 @@
-import Banner from "../Components/Banner";
+import Banner from "../Components/Banner/Banner";
 import Footer from "../Components/Footer";
-import Header from "../Components/Header";
+import Header from "../Components/HeaderHome/Header";
 
 function HomePage() {
   return (
