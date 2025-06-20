@@ -19,10 +19,21 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  overflow-y: hidden;
 }
 
 #colecao div img {
-  width: 90%;
+  width: 80%;
+}
+
+#colecao img {
+  transition: filter 0.3s ease;
+  transition: box-shadow 0.3s ease;
+}
+#colecao img:hover {
+  transform: scale(1.05);
+  filter: brightness(0.9);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.2);
 }
 
 #destaque {
