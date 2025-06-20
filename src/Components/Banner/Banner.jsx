@@ -28,9 +28,15 @@ function Banner() {
         </div>
         <div id="bannerImg">
           <Slider {...settings}>
-            <div><img src={Banne} alt="Slide 1" style={{ width: "100%" }} /></div>
-            <div><img src={banner} alt="Slide 2" style={{ width: "100%" }} /></div>
-            <div><img src={banner3} alt="Slide 3" style={{ width: "100%" }} /></div>
+            <div>
+              <img src={Banne} alt="Slide 1" style={{ width: "100%" }} />
+            </div>
+            <div>
+              <img src={banner} alt="Slide 2" style={{ width: "100%" }} />
+            </div>
+            <div>
+              <img src={banner3} alt="Slide 3" style={{ width: "100%" }} />
+            </div>
           </Slider>
         </div>
       </section>

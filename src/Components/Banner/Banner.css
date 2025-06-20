@@ -3,7 +3,6 @@
 *{
   overflow-x: hidden ;
   font-family: "Inter", sans-serif;
-  overflow-y: hidden ;
 }
 
 #bannerHome {
@@ -15,11 +14,11 @@
   justify-content: center;
   gap: 20px;
   align-items: center;
+  margin-bottom: 5vh;
 }
 
 #bannerOfertas {
   width: 45%;
-  margin-top: 5vh;
   display: flex;
   flex-direction: column;
   gap: 10px;
@@ -35,18 +34,21 @@
 #bannerOfertas h1 {
   font-size: 48px;
 }
-img{
-  max-width: 80%;
+#bannerImg img{
+  max-width: 90%;
   align-items: center;
   justify-content: center;
   text-align: center;
+  object-fit: contain;
 }
 
 #bannerImg {
   width: 100%;
+  height: 70vh;
   align-items: center;
   justify-content: center;
   text-align: center;
+  overflow-y: hidden ;
 }
 
 #bannerOfertas p{
@@ -62,7 +64,9 @@ img{
   cursor: pointer;
   background-color: #c92071;
   color: white;
+  transition: background-color 0.3s ease;
 }
+
 #bannerOfertas button:hover {
   background-color: #eb7bb1;
 }
