@@ -2,6 +2,7 @@ import Banner from "../Components/Banner/Banner";
 import ColecoesDestaque from "../Components/colecoesDestaque/ColecoesDestaque";
 import Footer from "../Components/Footer";
 import Header from "../Components/HeaderHome/Header";
+import ProdutosEmAltas from "../Components/ProdutosEmAlta/ProdutosEmAltas";
 
 function HomePage() {
   return (
@@ -9,6 +10,7 @@ function HomePage() {
       <Header />
       <Banner />
       <ColecoesDestaque />
+      <ProdutosEmAltas/>
       <Footer />
     </>
   );
