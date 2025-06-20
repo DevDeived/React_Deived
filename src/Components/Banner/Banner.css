@@ -36,9 +36,11 @@
   font-size: 48px;
 }
 #bannerImg img{
-  max-width: 90%;
+  max-width: 70%;
   height: auto;
   display: block;
+  justify-content: center;
+  align-self: center;
   object-fit: contain;
 }
 
