@@ -1,4 +1,3 @@
-import OfertaEspecial from "./Components/OfertaEspecial";
 import CriarContaPage from "./Pages/CriarContaPage";
 import DetalhesProdutosPage from "./Pages/DetalhesProdutos";
 import HomePage from "./Pages/HomePage";
@@ -14,7 +13,6 @@ function App() {
           <Route path="/login" element={<LoginPage />} />
           <Route path="/produtos" element={<DetalhesProdutosPage />} />
           <Route path="/conta" element={<CriarContaPage />} />
-          <Route path="/ofertas" element={<OfertaEspecial />} />
         </Routes>
       </BrowserRouter>
     </>
