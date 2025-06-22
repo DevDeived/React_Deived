@@ -11,7 +11,7 @@ function Header() {
           <input type="text" placeholder="Pesquisar produto..." />
           <a href="">Cadastre-se</a>
           <button>Entrar</button>
-          <FaShoppingCart color="#c92071" size={24} />
+          <p><FaShoppingCart /></p>
         </div>
 
         <div id="headerNav">

@@ -4,9 +4,16 @@
   width: 100%;
   height: 80vh;
   display: grid;
-  justify-content: center;
-  align-items: center;
+  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  gap: 1.5rem;
+  flex: 1;
   
+}
+.layoutProdutos {
+  display: flex;
+  gap: 2rem;
+  padding: 2rem;
+  align-items: flex-start;
 }
 
 h1{
@@ -39,4 +46,73 @@ h1{
   transform: scale(1.02);
   filter: brightness(0.9);
   box-shadow: 0 6px 16px rgba(0, 0, 0, 0.4);
+}
+
+.produtos-em-altas {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  gap: 1.5rem;
+  flex: 1;
+  width: 100%;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.card-produto {
+  background: white;
+  border-radius: 8px;
+  padding: 1rem;
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  position: relative;
+}
+
+.card-produto img {
+  width: 100%;
+  height: auto;
+  background-color: #968e8e33;
+  padding: 1vw;
+  transition: all 0.3s ease;
+}
+
+.card-produto img:hover {
+  transform: scale(1.02);
+  filter: brightness(0.9);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.4);
+}
+
+.tag-desconto {
+  position: absolute;
+  top: 0.5rem;
+  left: 0.5rem;
+  background: #c4ff65;
+  padding: 0.25rem 0.5rem;
+  font-size: 0.75rem;
+  border-radius: 4px;
+}
+
+.categoria {
+  font-size: 0.8rem;
+  color: gray;
+  margin-top: 0.5rem;
+}
+
+.card-produto h3 {
+  font-size: 1rem;
+  margin: 0.25rem 0;
+}
+
+.preco {
+  font-size: 1rem;
+}
+
+.preco-original {
+  text-decoration: line-through;
+  color: #aaa;
+  margin-right: 0.5rem;
+}
+
+.preco-atual {
+  color: black;
+  font-weight: bold;
 }

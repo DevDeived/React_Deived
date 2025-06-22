@@ -66,6 +66,16 @@
   color: #00bfff;
 }
 
+#HomePage p{
+  color: #c92071; 
+  font-size: 24px;
+  cursor: pointer;
+}
+
+#HomePage p:hover{
+  color: #eb7bb1;
+}
+
 #homelist li {
   display: flex;
   align-items: center;
