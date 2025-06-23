@@ -36,8 +36,9 @@ function DetalhesProdutosPage() {
             <label><input type="checkbox" /> Unisex</label>
           </div>
         </aside>
+        <ProdutosEmAltas />
       </div>
-      <ProdutosEmAltas />
+      
       <Footer />
     </>
   );
