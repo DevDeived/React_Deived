@@ -4,6 +4,9 @@
   gap: 2rem;
   background: #f8f6ff;
 }
+#produtos h1 {
+  display: none;
+}
 
 .filtros {
   width: 240px;

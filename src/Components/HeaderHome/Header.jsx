@@ -16,10 +16,10 @@ function Header() {
 
         <div id="headerNav">
           <ul id="headerlist">
-            <li>Home</li>
-            <li>Produtos</li>
-            <li>Categoria</li>
-            <li>Meus Pedidos</li>
+            <a href="/"><li>Home</li></a>
+            <a href="Produtos"><li>Produtos</li></a>
+            <a href=""><li>Categoria</li></a>
+            <a href=""><li>Meus Pedidos</li></a>
           </ul>
         </div>
       </section>

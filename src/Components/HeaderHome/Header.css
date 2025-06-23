@@ -54,6 +54,10 @@
   padding: 0;
 }
 
+#headerlist a {
+  text-decoration: none;
+}
+
 #headerlist li {
   color: #1f1f1f;
   padding-left: 2vw;
@@ -64,6 +68,7 @@
 
 #headerlist li:hover {
   color: #00bfff;
+  
 }
 
 #HomePage p{
